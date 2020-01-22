@@ -7,14 +7,14 @@ entity rsqrt is
 		 F_bits : positive := 16; -- number of fractional bits
 		 N_iterations : positive := 3); -- number of Newton's iterations
 
-	port (x : in std_logic_vector(w_bits-1 downto 0);
+	port (clock : in std_logic;
+		  x : in std_logic_vector(w_bits-1 downto 0);
 	      y: out std_logic_vector(w_bits-1 downto 0));
 
 end entity rsqrt;
 
 architecture rsqrt_arch of rsqrt is
 
-signal clock : std_logic;
 signal z : std_logic_vector(4 downto 0);
 signal initial_guess : std_logic_vector(w_bits downto 1);
 
