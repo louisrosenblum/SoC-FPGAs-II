@@ -1,0 +1,13 @@
+{C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #2/tcounter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #2/tcounter.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity test_counter
+-- Compiling architecture only of test_counter
+
+} {} {}} {C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #2/counter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #2/counter.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity counter
+-- Compiling architecture only of counter
+
+} {} {}}
