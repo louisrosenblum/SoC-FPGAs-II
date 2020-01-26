@@ -2,14 +2,19 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 USE ieee.numeric_std.ALL;
 
-entity testbench is
+library std;
+use STD.textio.all;
+use ieee.std_logic_textio.all;
 
-	port(   input : in unsigned(7 downto 0);
-			output: out unsigned(7 downto 0));
+entity testbench is
 
 end entity;
 
 architecture testbench_arch of testbench is
+
+signal input : unsigned(7 downto 0);
+signal output : unsigned(7 downto 0);
+
 
 component add1 is
 	port ( num : in unsigned(7 downto 0);
@@ -19,7 +24,7 @@ end component;
 
 begin
 
-adder_main : add1 port map(num => output, sum => input);
+adder_main : add1 port map(num => input, sum => output);
 
 
 main : process
@@ -27,8 +32,7 @@ main : process
   file text_file : text open read_mode is "stim.txt";
   variable text_line : line;
   
-  file write_file : text open write_mode is "output.txt";
-  variable write_line : line;
+  variable int : integer;
 
 begin
 
@@ -36,28 +40,32 @@ while not endfile(text_file) loop
  
   readline(text_file, text_line);
  
-  -- Skip empty lines and single-line comments
-  if text_line.all'length = 0 or text_line.all(1) = '#' then
-    next;
-  end if;
+
+  read(text_line,int);
   
-  output <= to_unsigned(test_line);
+  input <= to_unsigned(int,8);
   
-  wait 10 ns;
+  wait for 10ms;
   
-  end while;
+  end loop;
   
+	wait;
 
 end process;
 
-write_out : process(input)
+write_out : process(output)
 	file write_file : text open write_mode is "output.txt";
 	variable write_line : line;
 	
 	begin
 	
-	write(write_line,input);
-	writeline(write_file,write_line);
+	if(output = "00000000") then
+
+	else
+		write(write_line,to_integer(output));
+		writeline(write_file,write_line);
+	
+	end if;
 
 	end process;
 

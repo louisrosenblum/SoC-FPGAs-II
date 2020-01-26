@@ -8,7 +8,7 @@ entity add1 is
 			
 end entity;
 
-architecture add1_arch of add is
+architecture add1_arch of add1 is
 
 
 begin
@@ -17,7 +17,7 @@ begin
 main : process(num)
 
 begin
-	sum <= to_unsigned(num) + 1;
+	sum <= num+1;
 	
 end process;
 
