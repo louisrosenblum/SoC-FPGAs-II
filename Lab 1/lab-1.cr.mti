@@ -6,24 +6,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity rsqrt
 -- Compiling architecture rsqrt_arch of rsqrt
 
-} {} {}} {C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity y0
--- Compiling architecture y0_arch of y0
-** Error: C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd(38): (vcom-1581) No feasible entries for infix operator '*'.
-** Error: C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd(38): ** Error: (vcom-1590) Bad expression in operand of prefix expression '-'.
-** Error: C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd(38): Bad right hand side (prefix expression) in variable assignment.
-** Error: C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd(40): (vcom-1581) No feasible entries for infix operator '*'.
-** Error: C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd(40): ** Error: (vcom-1590) Bad expression in operand of prefix expression '-'.
-** Error: C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd(40): ** Error: (vcom-1590) Bad expression in left operand of infix expression '+'.
-** Error: C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd(40): Bad right hand side (infix expression) in variable assignment.
-** Error: C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd(44): near "process": (vcom-1576) expecting IF.
-
-} {9.0 17.0} {}} {C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd}
+} {} {}} {C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO

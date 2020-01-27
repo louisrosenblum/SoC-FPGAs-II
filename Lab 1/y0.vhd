@@ -15,19 +15,24 @@ end entity y0;
 
 architecture y0_arch of y0 is
 
-variable A : integer;
-variable B : integer;
-variable even : Boolean;
+
 
 begin
 
 main : process(clock,x_in,z_in)
+
+	variable A : integer;
+	variable B : integer;
+	variable even : Boolean;
+	variable Xa: unsigned(w_bits-1 downto 0);
+	variable Xb: unsigned(w_bits-1 downto 0);
+
 	begin
 	
 	if(rising_edge(clock)) then
 		B := w_bits - F_bits - to_integer(unsigned(z_in)) - 1;
 
-		if(to_unsigned(B,w_bits-1)(0) = '0') then
+		if(to_signed(B,w_bits-1)(0) = '0') then
 			even := true;
 		else
 			even := false;
@@ -35,9 +40,14 @@ main : process(clock,x_in,z_in)
 		end if;
 
 		if(even = true) then
-			A := -1.5 * B;
+			A := -3/2*B;
 		else
-			A := -1.5*B + 0.5;
+			A := -3/2*B + 1/2;
+		end if;
+
+		Xa := to_unsigned(2**A,w_bits-1)*unsigned(x_in);
+		
+		Xb := to_unsigned(2**(-1*B),w_bits-1);
 		
 	end if;
 	
