@@ -15,7 +15,9 @@ end entity y0;
 
 architecture y0_arch of y0 is
 
-signal B : std_logic_vector(w_bits downto 1);
+variable A : integer;
+variable B : integer;
+variable even : Boolean;
 
 begin
 
@@ -23,7 +25,21 @@ main : process(clock,x_in,z_in)
 	begin
 	
 	if(rising_edge(clock)) then
-		B <= w_bits - F_bits - to_integer(z_in) - 1;
+		B := w_bits - F_bits - to_integer(unsigned(z_in)) - 1;
+
+		if(to_unsigned(B,w_bits-1)(0) = '0') then
+			even := true;
+		else
+			even := false;
+
+		end if;
+
+		if(even = true) then
+			A := -1.5 * B;
+		else
+			A := -1.5*B + 0.5;
+		
+	end if;
 	
 end process;
 
