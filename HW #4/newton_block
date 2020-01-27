@@ -1,0 +1,27 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+USE ieee.numeric_std.ALL;
+
+entity newton_block is
+
+	port(input_x : in unsigned(7 downto 0);
+		input_y : in unsigned(7 downto 0);
+		output_y : out unsigned(7 downto 0));
+	
+
+end entity;
+
+architecture newton_block_arch of newton_block is
+
+
+begin
+
+main: process(input_x,input_y)
+
+begin
+
+	output_y <= input_y/2 * (3 - (input_x * (input_y**2)));
+
+end process;
+
+end architecture;

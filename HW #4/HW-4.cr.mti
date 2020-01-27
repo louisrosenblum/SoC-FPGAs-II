@@ -1,0 +1,17 @@
+{C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity newton_block
+-- Compiling architecture newton_block_arch of newton_block
+** Error: C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd(23): No feasible entries for infix operator "**".
+** Error: C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd(23): Bad expression in left operand of infix expression "*".
+** Error: C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd(23): Bad expression in right operand of infix expression "-".
+** Error: C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd(23): Bad expression in left operand of infix expression "*".
+** Error: C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd(23): Bad expression in left operand of infix expression "/".
+** Error: C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd(23): Type error resolving infix expression "/" as type ieee.NUMERIC_STD.UNSIGNED.
+** Error: C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd(27): VHDL Compiler exiting
+
+} {9.0 16.0} {}}
