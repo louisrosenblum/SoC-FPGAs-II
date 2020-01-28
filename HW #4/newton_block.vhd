@@ -4,9 +4,12 @@ USE ieee.numeric_std.ALL;
 
 entity newton_block is
 
-	port(input_x : in unsigned(7 downto 0);
-		input_y : in unsigned(7 downto 0);
-		output_y : out unsigned(7 downto 0));
+	generic (w_bits : positive := 32; -- size of word
+		 F_bits : positive := 16); -- number of fractional bits
+
+	port(input_x : in unsigned(w_bits-1 downto 0);
+		input_y : in unsigned(w_bits-1 downto 0);
+		output_y : out unsigned(w_bits-1 downto 0));
 	
 
 end entity;
@@ -24,10 +27,12 @@ main: process(input_x,input_y)
 
 begin
 
-	x_in := to_integer(input_x);
-	y_in := to_integer(input_y);
+	x_in := to_integer(input_x(w_bits-1 downto F_bits)) + to_integer(input_x(F_bits-1 downto 0))/(2**F_bits);
+	y_in := to_integer(input_y(w_bits-1 downto F_bits)) + to_integer(input_y(F_bits-1 downto 0))/(2**F_bits);
 	
-	output_y
+	y_out := y_in * (3-(x_in * (y_in)**2))/2;
+
+	output_y(w_bits-1 downto 0) <= to_unsigned(y_out,w_bits);
 
 end process;
 

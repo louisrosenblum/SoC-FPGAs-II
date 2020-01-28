@@ -2,6 +2,9 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 USE ieee.numeric_std.ALL;
 
+library ieee_proposed;
+use ieee_proposed.fixed_pkg.all;
+
 library std;
 use STD.textio.all;
 use ieee.std_logic_textio.all;

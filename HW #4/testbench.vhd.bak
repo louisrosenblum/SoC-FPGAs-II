@@ -2,6 +2,9 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 USE ieee.numeric_std.ALL;
 
+library ieee_proposed;
+use ieee_proposed.fixed_pkg_c.all;
+
 library std;
 use STD.textio.all;
 use ieee.std_logic_textio.all;
@@ -16,15 +19,10 @@ signal input : unsigned(7 downto 0);
 signal output : unsigned(7 downto 0);
 
 
-component add1 is
-	port ( num : in unsigned(7 downto 0);
-			sum : out unsigned(7 downto 0));
-			
+component newton_block is
 end component;
 
 begin
-
-adder_main : add1 port map(num => input, sum => output);
 
 
 main : process
