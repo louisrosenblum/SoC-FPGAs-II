@@ -8,44 +8,67 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4
-Enewton_block
-Z1 w1580239863
-Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Pmath_utility_pkg
+w1580241420
 R0
-Z5 8C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd
-Z6 FC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd
+8C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/math_utility_pkg.vhdl
+FC:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/math_utility_pkg.vhdl
 l0
-L5
-V_>c0ilJEXA=1lWR?1;e<n1
-!s100 >P>7<bVZaDJIz1F1ddmzl2
-Z7 OP;C;10.4a;61
+L42
+VmiUL]5>[Q6nJL648ZDjH92
+!s100 >=MaJn`ZdYee[FmcGD;Ei2
+Z1 OV;C;10.5b;63
 32
-Z8 !s110 1580239868
+!s110 1580243402
 !i10b 1
-Z9 !s108 1580239868.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd|
-Z11 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd|
+!s108 1580243402.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/math_utility_pkg.vhdl|
+!s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/math_utility_pkg.vhdl|
 !i113 1
-Z12 o-work work -2002 -explicit -O0
-Z13 tExplicit 1
-Anewton_block_arch
+o-work work -2002 -explicit
+Z2 tExplicit 1 CvgOpt 0
+Enewton_block
+Z3 w1580246542
+Z4 DPx13 ieee_proposed 16 math_utility_pkg 0 22 RQ9f8fT3d9I>Z7c1<`_LM1
+Z5 DPx13 ieee_proposed 9 fixed_pkg 0 22 =MioNHa`Il4>9;2i4U1C<1
+Z6 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z9 8C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd
+Z10 FC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd
+l0
+L8
+Vch[CzS[@afa@NeYiV:fho1
+!s100 <=Z;Tn1_044aZoeP@E62z1
+R1
+33
+Z11 !s110 1580246545
+!i10b 1
+Z12 !s108 1580246545.000000
+Z13 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd|
+Z14 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd|
+!i113 1
+Z15 o-work work -2008 -explicit
 R2
-R3
+Anewton_block_arch
 R4
-DEx4 work 12 newton_block 0 22 _>c0ilJEXA=1lWR?1;e<n1
-l20
-L17
-VI9WLS9fVdZ9nmJBHj]?NL1
-!s100 d5dlZ?AIN<a;OUX[N4O8A3
+R5
+R6
 R7
-32
 R8
-!i10b 1
-R9
-R10
+Z16 DEx4 work 12 newton_block 0 22 ch[CzS[@afa@NeYiV:fho1
+l23
+L20
+VlnaJ;ST@`7G<>mlLe;@6M1
+!s100 <cWhjPEh5cCbLU]`9]eY`2
+R1
+33
 R11
-!i113 1
+!i10b 1
 R12
 R13
+R14
+!i113 1
+R15
+R2
