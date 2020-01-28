@@ -12,6 +12,7 @@ entity newton_block is
 
 	port(input_x : in ufixed(w_bits-F_bits-1 downto -F_bits);
 		input_y : in ufixed(w_bits-F_bits-1 downto -F_bits);
+		output_x : out ufixed(w_bits-F_bits-1 downto -F_bits));
 		output_y : out ufixed(w_bits-F_bits-1 downto -F_bits));
 	
 
@@ -28,8 +29,10 @@ variable yn : ufixed(w_bits-F_bits-1 downto -F_bits);
 
 begin
 
-	yn := input_y*(3 - (input_x*(input_y*input_y))/2;
+	yn := input_y*(3 - (input_x*(input_y*input_y)))/2;
 	output_y <= yn;
+
+	output_x <= input_x;
 
 end process;
 

@@ -1,13 +1,12 @@
-{C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/testbench.vhd} {0 {vcom -work work -2008 -explicit -stats=none {C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/testbench.vhd}
+{C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
-** Error: (vcom-11) Could not find ieee_proposed.fixed_pkg.
-** Error (suppressible): C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/testbench.vhd(6): (vcom-1195) Cannot find expanded name "ieee_proposed.fixed_pkg".
-** Error: C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/testbench.vhd(6): Unknown expanded name.
--- Loading package std_logic_textio
-** Error: C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/testbench.vhd(12): VHDL Compiler exiting
+-- Loading package math_utility_pkg
+-- Loading package fixed_pkg
+-- Compiling entity newton_block
+-- Compiling architecture newton_block_arch of newton_block
 
-} {7.0 8.0 9.0 10.0 11.0 12.0} {}}
+} {} {}}
