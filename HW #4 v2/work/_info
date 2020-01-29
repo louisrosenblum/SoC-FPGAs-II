@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2
 Etestbench
-Z1 w1580326992
+Z1 w1580331449
 Z2 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
 Z3 DPx13 ieee_proposed 25 standard_textio_additions 0 22 :caWd>lEODFTYI`03ffA?2
 Z4 DPx13 ieee_proposed 16 math_utility_pkg 0 22 RQ9f8fT3d9I>Z7c1<`_LM1
@@ -26,9 +26,9 @@ V1j]9B`z=U8KRn[GE_>A960
 !s100 MY>P=k4GT=6ff]WQ4L33:2
 Z11 OV;C;10.5b;63
 33
-Z12 !s110 1580326995
+Z12 !s110 1580331451
 !i10b 1
-Z13 !s108 1580326995.000000
+Z13 !s108 1580331451.000000
 Z14 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/testbench.vhd|
 Z15 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/testbench.vhd|
 !i113 1
@@ -43,10 +43,10 @@ R6
 R7
 R8
 Z18 DEx4 work 9 testbench 0 22 1j]9B`z=U8KRn[GE_>A960
-l26
+l38
 L19
-VOH;nQlE_X=4D;GX4YkKMV1
-!s100 WSEa:`VhUNS=6l`QR^fOX1
+Vz1e3[cN4aU:LS8FP9d4MS2
+!s100 o7<QV_>1E_Sk7=[3YnH<c2
 R11
 33
 R12

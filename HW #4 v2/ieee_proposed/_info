@@ -72,11 +72,56 @@ R8
 !i113 1
 R13
 R14
+Enewton_block
+Z15 w1580269663
+R1
+Z16 DPx13 ieee_proposed 9 fixed_pkg 0 22 =MioNHa`Il4>9;2i4U1C<1
+R2
+R4
+R3
+R0
+Z17 8C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/newton_block.vhd
+Z18 FC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/newton_block.vhd
+l0
+L8
+Vm0IDf9AJa^@CkT1:laAL61
+!s100 ?@?jh:91gZmaXUkA[?Ej10
+R8
+32
+Z19 !s110 1580331451
+!i10b 1
+Z20 !s108 1580331451.000000
+Z21 !s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/newton_block.vhd|
+Z22 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/newton_block.vhd|
+!i113 1
+R13
+R14
+Anewton_block_arch
+R1
+R16
+R2
+R4
+R3
+Z23 DEx4 work 12 newton_block 0 22 m0IDf9AJa^@CkT1:laAL61
+l24
+L21
+Z24 VjPh=5Na0_POEV:N>n4X];2
+Z25 !s100 jB7RWha=7O>Z^LfOYmkLz0
+R8
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R13
+R14
 Pstandard_additions
 R5
 R0
-Z15 8C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_additions.vhdl
-Z16 FC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_additions.vhdl
+Z26 8C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_additions.vhdl
+Z27 FC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_additions.vhdl
 l0
 L6
 V8>=Lehed08^1gRmHHDI0^3
@@ -84,11 +129,11 @@ V8>=Lehed08^1gRmHHDI0^3
 R8
 32
 b1
-Z17 !s110 1580325249
+Z28 !s110 1580325249
 !i10b 1
-Z18 !s108 1580325249.000000
-Z19 !s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_additions.vhdl|
-Z20 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_additions.vhdl|
+Z29 !s108 1580325249.000000
+Z30 !s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_additions.vhdl|
+Z31 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_additions.vhdl|
 !i113 1
 R13
 R14
@@ -101,11 +146,11 @@ VLnRkY6SbhdZIK?oOJdQOa0
 !s100 ZhIb07J;8HQFWUk?9>Ih01
 R8
 32
-R17
+R28
 !i10b 1
-R18
-R19
-R20
+R29
+R30
+R31
 !i113 1
 R13
 R14
@@ -113,8 +158,8 @@ Pstandard_textio_additions
 R4
 R5
 R0
-Z21 8C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_textio_additions.vhdl
-Z22 FC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_textio_additions.vhdl
+Z32 8C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_textio_additions.vhdl
+Z33 FC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_textio_additions.vhdl
 l0
 L12
 V:caWd>lEODFTYI`03ffA?2
@@ -122,11 +167,11 @@ V:caWd>lEODFTYI`03ffA?2
 R8
 32
 b1
-Z23 !s110 1580325252
+Z34 !s110 1580325252
 !i10b 1
-Z24 !s108 1580325252.000000
-Z25 !s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_textio_additions.vhdl|
-Z26 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_textio_additions.vhdl|
+Z35 !s108 1580325252.000000
+Z36 !s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_textio_additions.vhdl|
+Z37 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_textio_additions.vhdl|
 !i113 1
 R13
 R14
@@ -140,11 +185,11 @@ VcRjYM=1cE>hC4`Bjd@>XS0
 !s100 V1QHc^oA6Q4zfkOi9Nd>?3
 R8
 32
-R23
+R34
 !i10b 1
-R24
-R25
-R26
+R35
+R36
+R37
 !i113 1
 R13
 R14
