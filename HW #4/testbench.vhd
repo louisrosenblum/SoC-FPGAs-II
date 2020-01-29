@@ -75,6 +75,8 @@ main : process
 
 begin
 
+	data_fixed <= to_ufixed(0,w_bits-F_bits-1,-F_bits);
+
 while not endfile(text_file) loop
  
   readline(text_file, text_line);

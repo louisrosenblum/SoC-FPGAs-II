@@ -1,0 +1,40 @@
+{C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_additions.vhdl} {1 {vcom -work ieee_proposed -2002 -explicit -stats=none {C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_additions.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling package standard_additions
+-- Loading package TEXTIO
+-- Compiling package body standard_additions
+-- Loading package standard_additions
+
+} {} {}} {C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_textio_additions.vhdl} {2 {vcom -work ieee_proposed -2002 -explicit -stats=none {C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_textio_additions.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Compiling package standard_textio_additions
+-- Loading package standard_additions
+-- Compiling package body standard_textio_additions
+-- Loading package standard_textio_additions
+** Warning: C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_textio_additions.vhdl(60): (vcom-1246) Range 2 to 1 is null.
+
+} {} {}} {C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/fixed_pkg.vhdl} {2 {vcom -work ieee_proposed -2002 -explicit -stats=none {C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/fixed_pkg.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_utility_pkg
+-- Compiling package fixed_pkg
+-- Loading package MATH_REAL
+-- Compiling package body fixed_pkg
+-- Loading package fixed_pkg
+** Warning: C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/fixed_pkg.vhdl(1475): (vcom-1246) Range 0 downto 1 is null.
+** Warning: C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/fixed_pkg.vhdl(1476): (vcom-1246) Range 0 downto 1 is null.
+** Warning: C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/fixed_pkg.vhdl(1477): (vcom-1246) Range 0 downto 1 is null.
+** Warning: C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/fixed_pkg.vhdl(6892): (vcom-1246) Range 2 to 1 is null.
+
+} {} {}} {C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/math_utility_pkg.vhdl} {1 {vcom -work ieee_proposed -2002 -explicit -stats=none {C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/math_utility_pkg.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling package math_utility_pkg
+
+} {} {}}
