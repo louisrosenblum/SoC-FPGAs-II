@@ -88,4 +88,19 @@ while not endfile(text_file) loop
 
 end process;
 
+write_out : process(output)
+	file write_file : text open write_mode is "output.txt";
+	variable write_line : line;
+	
+	begin
+	
+
+
+	hwrite(write_line,output);
+	writeline(write_file,write_line);
+	
+
+
+	end process;
+
 end architecture;

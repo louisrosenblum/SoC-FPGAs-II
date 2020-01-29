@@ -29,8 +29,7 @@ variable yn : ufixed(w_bits-F_bits-1 downto -F_bits);
 
 begin
 
-	yn := input_y*(3 - (input_x*(input_y*input_y)))/2;
-	output_y <= yn;
+	output_y <= input_y*(3 - (input_x*(input_y*input_y)))/2;
 
 	output_x <= input_x;
 

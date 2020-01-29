@@ -57,7 +57,7 @@ newton_chain : for i in N_iterations-1 downto 0 generate
 
 		block0: component newton_block  -- Middle cells
 			generic map (w_bits => w_bits, F_bits => F_bits)
-			port map (input_x => x_chain(i-1), input_y  => output_chain(i-1),output_y => output(i));
+			port map (input_x => x_chain(i-1), input_y  => output_chain(i-1),output_y => output_chain(i));
 
 	end generate block_chain;
 
