@@ -73,7 +73,7 @@ R8
 R13
 R14
 Enewton_block
-Z15 w1580269663
+Z15 w1580338237
 R1
 Z16 DPx13 ieee_proposed 9 fixed_pkg 0 22 =MioNHa`Il4>9;2i4U1C<1
 R2
@@ -88,9 +88,9 @@ Vm0IDf9AJa^@CkT1:laAL61
 !s100 ?@?jh:91gZmaXUkA[?Ej10
 R8
 32
-Z19 !s110 1580331451
+Z19 !s110 1580338323
 !i10b 1
-Z20 !s108 1580331451.000000
+Z20 !s108 1580338323.000000
 Z21 !s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/newton_block.vhd|
 Z22 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/newton_block.vhd|
 !i113 1
@@ -105,8 +105,8 @@ R3
 Z23 DEx4 work 12 newton_block 0 22 m0IDf9AJa^@CkT1:laAL61
 l24
 L21
-Z24 VjPh=5Na0_POEV:N>n4X];2
-Z25 !s100 jB7RWha=7O>Z^LfOYmkLz0
+Z24 VL2nQ1WVF>87VDJc6PIhZS2
+Z25 !s100 AKnZ=H74i=9X3WfUGlzm11
 R8
 32
 R19

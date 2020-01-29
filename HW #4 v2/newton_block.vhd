@@ -25,10 +25,15 @@ begin
 
 main: process(input_x)
 
+	variable y1 : ufixed(w_bits-F_bits-1 downto -F_bits);
+	variable y2 : ufixed(w_bits-F_bits-1 downto -F_bits);
+
 begin
 
-	output_y <= resize(input_y*(3 - (input_x*(input_y*input_y)))/2,w_bits-F_bits-1,-F_bits);
+	y1 := resize((input_x*input_y*input_y),w_bits-F_bits-1,-F_bits);
+	y2 := resize(input_y*(3 - y1)/2,w_bits-F_bits-1,-F_bits);
 
+	output_y <= y2;
 	output_x <= input_x;
 
 end process;

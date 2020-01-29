@@ -71,7 +71,7 @@ write_out : process(output)
 	
 	begin
 
-	if(output(1) = 'U') then
+	if(output(1) = 'U') or (output(1) = 'X') then
 
 	else
 
