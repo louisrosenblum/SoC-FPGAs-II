@@ -29,7 +29,7 @@ variable yn : ufixed(w_bits-F_bits-1 downto -F_bits);
 
 begin
 
-	output_y <= input_y*(3 - (input_x*(input_y*input_y)))/2;
+	output_y <= resize(input_y*(3 - (input_x*(input_y*input_y)))/2,w_bits-F_bits-1,-F_bits);
 
 	output_x <= input_x;
 

@@ -20,6 +20,7 @@ architecture testbench_arch of testbench is
 type fixed_array is array(0 to N_iterations-1) of ufixed(w_bits-F_bits-1 downto -F_bits);
 
 signal output : ufixed(w_bits-F_bits-1 downto -F_bits);
+signal data_fixed : ufixed(W_bits-F_bits-1 downto -F_bits);
 
 component newton_block is
 
@@ -51,7 +52,7 @@ newton_chain : for i in N_iterations-1 downto 0 generate
 
 		block0: component newton_block  -- Least significant cell
 			generic map (w_bits => w_bits, F_bits => F_bits)
-			port map (input_x => x_chain(i), input_y  => to_ufixed(1,w_bits-F_bits-1,-F_bits),output_y => output_chain(i));
+			port map (input_x => data_fixed, input_y  => to_ufixed(1,w_bits-F_bits-1,-F_bits),output_y => output_chain(i));
 
 	else generate
 
@@ -79,6 +80,8 @@ while not endfile(text_file) loop
   readline(text_file, text_line);
  
 	hread(text_line,data);
+
+	data_fixed <= data;
   
   wait for 10ms;
   
