@@ -6,11 +6,11 @@ w_bits = 32
 f_bits = 16
 diff = w_bits - f_bits
 
-%% Main
+%% Read from stim file
 
 fileID = fopen('stim.txt','r');
 
-
+a = []
 
 for i = 1:100
     
@@ -28,5 +28,9 @@ a = fgetl(fileID)
     end
     
     float = int + frac;
+    
+    a = [a fi(float,0,w_bits,f_bits)];
 end
 fclose(fileID);
+
+%%
