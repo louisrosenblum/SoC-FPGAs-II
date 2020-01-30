@@ -39,8 +39,7 @@ c = []
 
 for i = 1:100
     d = (3-a(i))/2;
-    e = fi(d,0,w_bits,f_bits);
-    c = [c e]
+    c = [c d]
 end
 
 %% Read from ModelSIM output file
@@ -57,7 +56,7 @@ for i = 1:100
 line_b = fgetl(fileID)
     
     for k = f_bits+1:w_bits
-        int = int + line_b(k-1)*2^(k-18);
+        int = int + line_b(k+1)*2^(k-16);
     end
     
     for j = 1:f_bits
@@ -75,8 +74,6 @@ fclose(fileID);
 result = []
 
 for i = 1:100
-    p = (c(i) - b(i));
-    k = fi(p,0,w_bits,f_bits);
-    result = [result k]
+    result = [result (c(i) - b(i))]
 end
 
