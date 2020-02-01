@@ -3,33 +3,11 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_utility_pkg
+-- Loading package fixed_pkg
+-- Loading package standard_textio_additions
 -- Compiling entity rsqrt
 -- Compiling architecture rsqrt_arch of rsqrt
-
-} {} {}} {C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_textio
--- Compiling entity rsqrt_TB
--- Compiling architecture rsqrt_TB_arch of rsqrt_TB
-** Warning: C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd(36): (vcom-1049) Actual for generic "w_bits" depends on value of signal "w_bits".
-** Warning: C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd(36): (vcom-1049) Actual for generic "F_bits" depends on value of signal "F_bits".
-** Warning: C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd(36): (vcom-1049) Actual for generic "N_iterations" depends on value of signal "N_iterations".
-** Warning: C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd(44): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
-** Warning: C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd(50): (vcom-1013) Subtype of "ieee.std_logic_1164.STD_LOGIC_VECTOR" depends on value of signal "w_bits".
-** Warning: C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd(18): (vcom-1013) Subtype of "ieee.std_logic_1164.STD_LOGIC_VECTOR" depends on value of signal "w_bits".
-** Warning: C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd(19): (vcom-1013) Subtype of "ieee.std_logic_1164.STD_LOGIC_VECTOR" depends on value of signal "w_bits".
-
-} {} {}} {C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Louis\Desktop\SoC-FPGAs-II\Lab 1\y0.vhd}
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity y0
--- Compiling architecture y0_arch of y0
 
 } {} {}}

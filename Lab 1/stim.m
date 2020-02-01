@@ -13,15 +13,16 @@ diff = w_bits - f_bits;
 
 fileID = fopen('stim.txt','w');
 
+% Define acceptable operators in advance.
+operators = {'0', '1'};
+
+
 for i = 1:100
-    rand_int = randi((2^diff)- 1);
-    rand_frac = randi((2^f_bits)-1)/(2^f_bits);
     
-    float = rand_int + rand_frac;
-    
-    fp = fi(float,0,w_bits,f_bits)
-    
-    fprintf(fileID,"%x\r\n",fp);
+indexes = randi(length(operators), 1, w_bits)
+s = cell2mat(operators(indexes));
+
+fprintf(fileID,"%s\r\n",s);
     
 end
 fclose(fileID);
