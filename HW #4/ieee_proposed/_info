@@ -7,370 +7,189 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4
-Penv
-Z1 w1580241420
-R0
-Z2 8C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/env.vhdl
-Z3 FC:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/env.vhdl
-l0
-L1
-VO^nhFVZkmZJ3C:1RHPJn32
-!s100 a6ECiRPOOAHcm=?ZXnI^[2
-Z4 OV;C;10.5b;63
-32
-b1
-Z5 !s110 1580246390
-!i10b 1
-Z6 !s108 1580246390.000000
-Z7 !s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/env.vhdl|
-Z8 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/env.vhdl|
-!i113 1
-Z9 o-work ieee_proposed -2002 -explicit
-Z10 tExplicit 1 CvgOpt 0
-Bbody
-DPx4 work 3 env 0 22 O^nhFVZkmZJ3C:1RHPJn32
-Z11 DPx13 ieee_proposed 18 standard_additions 0 22 8>=Lehed08^1gRmHHDI0^3
-l0
-L11
-V1B@Z^B1^>TcK2=SDgj_YT0
-!s100 5>LWWfoWTD?cGPC[cz^4c1
-R4
-32
-R5
-!i10b 1
-R6
-R7
-R8
-!i113 1
-R9
-R10
-Pfixed_float_types
-R1
-R0
-8C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/fixed_float_types.vhdl
-FC:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/fixed_float_types.vhdl
-l0
-L16
-V^0]KhXXmTUkIHnz`Nbj8U3
-!s100 cW]eNFhGGd5lB:5@0FCJB2
-R4
-32
-Z12 !s110 1580246345
-!i10b 1
-Z13 !s108 1580246345.000000
-!s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/fixed_float_types.vhdl|
-!s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/fixed_float_types.vhdl|
-!i113 1
-R9
-R10
+Z0 dC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2
 Pfixed_pkg
-Z14 DPx13 ieee_proposed 16 math_utility_pkg 0 22 RQ9f8fT3d9I>Z7c1<`_LM1
-Z15 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-Z16 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z17 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-R1
+Z1 DPx13 ieee_proposed 16 math_utility_pkg 0 22 RQ9f8fT3d9I>Z7c1<`_LM1
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 w1580241420
 R0
-Z18 8C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/fixed_pkg.vhdl
-Z19 FC:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/fixed_pkg.vhdl
+Z6 8C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/fixed_pkg.vhdl
+Z7 FC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/fixed_pkg.vhdl
 l0
 L25
 V=MioNHa`Il4>9;2i4U1C<1
 !s100 G6THWzmGUjMHzDMH5DiX83
-R4
+Z8 OV;C;10.5b;63
 32
 b1
-R12
+Z9 !s110 1580324625
 !i10b 1
-R13
-Z20 !s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/fixed_pkg.vhdl|
-Z21 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/fixed_pkg.vhdl|
+Z10 !s108 1580324625.000000
+Z11 !s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/fixed_pkg.vhdl|
+Z12 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/fixed_pkg.vhdl|
 !i113 1
-R9
-R10
+Z13 o-work ieee_proposed -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
 Bbody
 DPx4 work 9 fixed_pkg 0 22 =MioNHa`Il4>9;2i4U1C<1
 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
-R14
-R15
-R16
-R17
+R1
+R2
+R3
+R4
 l0
 L1471
 VBATLF1aQAT^li3J[Nf9PP0
 !s100 hg^2NY^d_kX?U8MWQmF6f0
-R4
+R8
 32
+R9
+!i10b 1
+R10
+R11
 R12
-!i10b 1
+!i113 1
 R13
-R20
-R21
-!i113 1
-R9
-R10
-Pfloat_pkg
-Z22 DPx13 ieee_proposed 9 fixed_pkg 0 22 =MioNHa`Il4>9;2i4U1C<1
 R14
-R15
-R16
-R17
-R1
-R0
-Z23 8C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/float_pkg.vhdl
-Z24 FC:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/float_pkg.vhdl
-l0
-L28
-VPdK2N7kPWI;?YB7Q0z>Q40
-!s100 PFJMiS@m`U5g[GFdD=hV[0
-R4
-32
-b1
-Z25 !s110 1580246346
-!i10b 1
-Z26 !s108 1580246346.000000
-Z27 !s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/float_pkg.vhdl|
-Z28 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/float_pkg.vhdl|
-!i113 1
-R9
-R10
-Bbody
-DPx4 work 9 float_pkg 0 22 PdK2N7kPWI;?YB7Q0z>Q40
-R22
-R14
-R15
-R16
-R17
-l0
-L999
-VhWJXRAc<hCLjQ1fah1`Y22
-!s100 6PUJme4g4_YiHkU=F7Mdl3
-R4
-32
-R25
-!i10b 1
-R26
-R27
-R28
-!i113 1
-R9
-R10
 Pmath_utility_pkg
-R1
+R5
 R0
-8C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/math_utility_pkg.vhdl
-FC:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/math_utility_pkg.vhdl
+8C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/math_utility_pkg.vhdl
+FC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/math_utility_pkg.vhdl
 l0
 L42
 VRQ9f8fT3d9I>Z7c1<`_LM1
 !s100 >=MaJn`ZdYee[FmcGD;Ei2
-R4
+R8
 32
-R12
+!s110 1580324623
 !i10b 1
-R13
-!s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/math_utility_pkg.vhdl|
-!s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/math_utility_pkg.vhdl|
+!s108 1580324623.000000
+!s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/math_utility_pkg.vhdl|
+!s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/math_utility_pkg.vhdl|
 !i113 1
-R9
-R10
-Pnumeric_std_additions
-R15
-R17
-R16
+R13
+R14
+Enewton_block
+Z15 w1580338237
 R1
+Z16 DPx13 ieee_proposed 9 fixed_pkg 0 22 =MioNHa`Il4>9;2i4U1C<1
+R2
+R4
+R3
 R0
-Z29 8C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/numeric_std_additions.vhdl
-Z30 FC:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/numeric_std_additions.vhdl
+Z17 8C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/newton_block.vhd
+Z18 FC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/newton_block.vhd
 l0
-L19
-VX=4MBlZlcW]L8hg>K3H_m0
-!s100 BVCVSO3PiWTceEX^FR]:]3
-R4
+L8
+Vm0IDf9AJa^@CkT1:laAL61
+!s100 ?@?jh:91gZmaXUkA[?Ej10
+R8
 32
-b1
-R12
+Z19 !s110 1580338323
 !i10b 1
-R13
-Z31 !s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/numeric_std_additions.vhdl|
-Z32 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/numeric_std_additions.vhdl|
+Z20 !s108 1580338323.000000
+Z21 !s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/newton_block.vhd|
+Z22 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/newton_block.vhd|
 !i113 1
-R9
-R10
-Bbody
-Z33 DPx4 work 21 numeric_std_additions 0 22 X=4MBlZlcW]L8hg>K3H_m0
-R15
-R17
-R16
-l0
-L479
-V>b;CTz@T=8^M4S?7K=UTO1
-!s100 @Ui_d^X54b2kJ?aWXf[kM1
-R4
-32
-R12
-!i10b 1
 R13
-R31
-R32
-!i113 1
-R9
-R10
-Pnumeric_std_unsigned
-R17
-R16
+R14
+Anewton_block_arch
 R1
-R0
-Z34 8C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/numeric_std_unsigned.vhdl
-Z35 FC:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/numeric_std_unsigned.vhdl
-l0
-L50
-V@43oGVoOH8n5n`JRgjTic0
-!s100 i[j]Rd^2j42e<=YIVKUT;2
-R4
-32
-b1
-R12
-!i10b 1
-R13
-Z36 !s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/numeric_std_unsigned.vhdl|
-Z37 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/numeric_std_unsigned.vhdl|
-!i113 1
-R9
-R10
-Bbody
-DPx4 work 20 numeric_std_unsigned 0 22 @43oGVoOH8n5n`JRgjTic0
-R33
-R15
-R17
 R16
-l0
-L1156
-ViN<U^Ao53d3U;T3@I]LIW1
-!s100 1:<[hK[oD8^VVEPmnZibX2
+R2
 R4
+R3
+Z23 DEx4 work 12 newton_block 0 22 m0IDf9AJa^@CkT1:laAL61
+l24
+L21
+Z24 VL2nQ1WVF>87VDJc6PIhZS2
+Z25 !s100 AKnZ=H74i=9X3WfUGlzm11
+R8
 32
-R12
+R19
 !i10b 1
-R13
-R36
-R37
+R20
+R21
+R22
 !i113 1
-R9
-R10
+R13
+R14
 Pstandard_additions
-R1
+R5
 R0
-Z38 8C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/standard_additions.vhdl
-Z39 FC:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/standard_additions.vhdl
+Z26 8C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_additions.vhdl
+Z27 FC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_additions.vhdl
 l0
 L6
 V8>=Lehed08^1gRmHHDI0^3
 !s100 a^jda1]KSjIao9g>Re[:n2
-R4
+R8
 32
 b1
-R25
+Z28 !s110 1580325249
 !i10b 1
-R26
-Z40 !s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/standard_additions.vhdl|
-Z41 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/standard_additions.vhdl|
+Z29 !s108 1580325249.000000
+Z30 !s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_additions.vhdl|
+Z31 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_additions.vhdl|
 !i113 1
-R9
-R10
+R13
+R14
 Bbody
 DPx4 work 18 standard_additions 0 22 8>=Lehed08^1gRmHHDI0^3
-R17
+R4
 l0
 L273
 VLnRkY6SbhdZIK?oOJdQOa0
 !s100 ZhIb07J;8HQFWUk?9>Ih01
-R4
+R8
 32
-R25
+R28
 !i10b 1
-R26
-R40
-R41
+R29
+R30
+R31
 !i113 1
-R9
-R10
+R13
+R14
 Pstandard_textio_additions
-R17
-R1
+R4
+R5
 R0
-Z42 8C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/standard_textio_additions.vhdl
-Z43 FC:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/standard_textio_additions.vhdl
+Z32 8C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_textio_additions.vhdl
+Z33 FC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_textio_additions.vhdl
 l0
 L12
 V:caWd>lEODFTYI`03ffA?2
 !s100 [h;GkcG50k3_J6:aAGBdZ3
-R4
+R8
 32
 b1
-R25
+Z34 !s110 1580325252
 !i10b 1
-R26
-Z44 !s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/standard_textio_additions.vhdl|
-Z45 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/standard_textio_additions.vhdl|
+Z35 !s108 1580325252.000000
+Z36 !s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_textio_additions.vhdl|
+Z37 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4 v2/ieee_proposed/standard_textio_additions.vhdl|
 !i113 1
-R9
-R10
+R13
+R14
 Bbody
 DPx4 work 25 standard_textio_additions 0 22 :caWd>lEODFTYI`03ffA?2
-R11
-R17
+DPx13 ieee_proposed 18 standard_additions 0 22 8>=Lehed08^1gRmHHDI0^3
+R4
 l0
 L58
 VcRjYM=1cE>hC4`Bjd@>XS0
 !s100 V1QHc^oA6Q4zfkOi9Nd>?3
-R4
+R8
 32
-R25
+R34
 !i10b 1
-R26
-R44
-R45
+R35
+R36
+R37
 !i113 1
-R9
-R10
-Pstd_logic_1164_additions
-R17
-R16
-R1
-R0
-Z46 8C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/std_logic_1164_additions.vhdl
-Z47 FC:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/std_logic_1164_additions.vhdl
-l0
-L15
-V:SUNFmoQk3P]4E21DKjg42
-!s100 jXQZEjD0YdZ:0Nh8^jHf`2
-R4
-32
-b1
-R25
-!i10b 1
-R26
-Z48 !s90 -reportprogress|300|-work|ieee_proposed|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/std_logic_1164_additions.vhdl|
-Z49 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/std_logic_1164_additions.vhdl|
-!i113 1
-R9
-R10
-Bbody
-DPx4 work 24 std_logic_1164_additions 0 22 :SUNFmoQk3P]4E21DKjg42
-R17
-R16
-l0
-L241
-VCDBXzWHbfAnnmlJ>lifb^0
-!s100 2H5@eNP`iH<jB`7_]cBMI1
-R4
-32
-R25
-!i10b 1
-R26
-R48
-R49
-!i113 1
-R9
-R10
+R13
+R14

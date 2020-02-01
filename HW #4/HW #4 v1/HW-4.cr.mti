@@ -1,0 +1,28 @@
+{C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_utility_pkg
+-- Loading package fixed_pkg
+-- Compiling entity newton_block
+-- Compiling architecture newton_block_arch of newton_block
+
+} {} {}} {C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/testbench.vhd} {2 {vcom -work work -2008 -explicit -stats=none {C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/testbench.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_utility_pkg
+-- Loading package fixed_pkg
+-- Loading package std_logic_textio
+-- Compiling entity testbench
+-- Compiling architecture testbench_arch of testbench
+** Warning: C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/testbench.vhd(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/testbench.vhd(22): Nonresolved signal 'output' may have multiple sources.
+  Drivers:
+    C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/testbench.vhd(48):Instantiation block0
+
+} {} {}}

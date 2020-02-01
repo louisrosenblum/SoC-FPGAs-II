@@ -4,6 +4,7 @@ USE ieee.numeric_std.ALL;
 
 library ieee_proposed;
 use ieee_proposed.fixed_pkg.all;
+use ieee_proposed.standard_textio_additions.all;
 
 library std;
 use STD.textio.all;
@@ -20,72 +21,43 @@ architecture testbench_arch of testbench is
 type fixed_array is array(0 to N_iterations-1) of ufixed(w_bits-F_bits-1 downto -F_bits);
 
 signal output : ufixed(w_bits-F_bits-1 downto -F_bits);
-signal data_fixed : ufixed(W_bits-F_bits-1 downto -F_bits);
+signal output_x : ufixed(w_bits-F_bits-1 downto -F_bits);
+signal input : ufixed(w_bits-F_bits-1 downto -F_bits);
 
 component newton_block is
-
 	generic (w_bits : positive := 32; -- size of word
 		 F_bits : positive := 16); -- number of fractional bits
 
 	port(input_x : in ufixed(w_bits-F_bits-1 downto -F_bits);
 		input_y : in ufixed(w_bits-F_bits-1 downto -F_bits);
+		output_x : out ufixed(w_bits-F_bits-1 downto -F_bits);
 		output_y : out ufixed(w_bits-F_bits-1 downto -F_bits));
 end component;
 
+
 begin
 
-newton_chain : for i in N_iterations-1 downto 0 generate
-
-	signal output_chain : fixed_array;
-	signal x_chain : fixed_array;
-
-	begin
-
-	block_chain : if i = N_iterations-1 generate
-
-		block0: component newton_block  -- Most significant cell
-			generic map (w_bits => w_bits, F_bits => F_bits)
-			port map (input_x => x_chain(i-1), input_y  => output_chain(i-1),output_y => output);
-
-
-	elsif i = 0 generate
-
-		block0: component newton_block  -- Least significant cell
-			generic map (w_bits => w_bits, F_bits => F_bits)
-			port map (input_x => data_fixed, input_y  => to_ufixed(1,w_bits-F_bits-1,-F_bits),output_y => output_chain(i));
-
-	else generate
-
-		block0: component newton_block  -- Middle cells
-			generic map (w_bits => w_bits, F_bits => F_bits)
-			port map (input_x => x_chain(i-1), input_y  => output_chain(i-1),output_y => output_chain(i));
-
-	end generate block_chain;
-
-end generate newton_chain;
-
-	
-
+block0: component newton_block
+	generic map(w_bits => w_bits, F_bits => F_bits)
+	port map(input_x => input, input_y => to_ufixed(1,w_bits-F_bits-1,-F_bits),output_x => output_x, output_y => output);
 
 main : process
 
   file text_file : text open read_mode is "stim.txt";
   variable text_line : line;
-	variable data : ufixed(W_bits-F_bits-1 downto -F_bits);
+variable data_fixed : ufixed(w_bits-F_bits-1 downto -F_bits);
 
 begin
-
-	data_fixed <= to_ufixed(0,w_bits-F_bits-1,-F_bits);
 
 while not endfile(text_file) loop
  
   readline(text_file, text_line);
  
-	hread(text_line,data);
+	read(text_line,data_fixed);
 
-	data_fixed <= data;
-  
-  wait for 10ms;
+	input <= data_fixed;
+
+	wait for 1 ms;
   
   end loop;
   
@@ -98,13 +70,16 @@ write_out : process(output)
 	variable write_line : line;
 	
 	begin
-	
+
+	if(output(1) = 'U') or (output(1) = 'X') then
+
+	else
 
 
-	hwrite(write_line,output);
+	write(write_line,output);
 	writeline(write_file,write_line);
 	
-
+	end if;
 
 	end process;
 

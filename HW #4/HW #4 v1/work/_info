@@ -1,0 +1,121 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4
+Pmath_utility_pkg
+w1580241420
+R0
+8C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/math_utility_pkg.vhdl
+FC:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/math_utility_pkg.vhdl
+l0
+L42
+VmiUL]5>[Q6nJL648ZDjH92
+!s100 >=MaJn`ZdYee[FmcGD;Ei2
+Z1 OV;C;10.5b;63
+32
+!s110 1580243402
+!i10b 1
+!s108 1580243402.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/math_utility_pkg.vhdl|
+!s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/vhdl2008c-master/vhdl2008c-master/math_utility_pkg.vhdl|
+!i113 1
+o-work work -2002 -explicit
+Z2 tExplicit 1 CvgOpt 0
+Enewton_block
+Z3 w1580269663
+Z4 DPx13 ieee_proposed 16 math_utility_pkg 0 22 RQ9f8fT3d9I>Z7c1<`_LM1
+Z5 DPx13 ieee_proposed 9 fixed_pkg 0 22 =MioNHa`Il4>9;2i4U1C<1
+Z6 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z9 8C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd
+Z10 FC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd
+l0
+L8
+VVNCSg`FY?9]Q8j[ckPWJ;1
+!s100 ?@?jh:91gZmaXUkA[?Ej10
+R1
+33
+Z11 !s110 1580324111
+!i10b 1
+Z12 !s108 1580324111.000000
+Z13 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd|
+Z14 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/newton_block.vhd|
+!i113 1
+Z15 o-work work -2008 -explicit
+R2
+Anewton_block_arch
+R4
+R5
+R6
+R7
+R8
+Z16 DEx4 work 12 newton_block 0 22 VNCSg`FY?9]Q8j[ckPWJ;1
+l24
+L21
+Z17 VY?OV?e=VfnY;;Cob4=K;K0
+Z18 !s100 jB7RWha=7O>Z^LfOYmkLz0
+R1
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R2
+Etestbench
+Z19 w1580324023
+Z20 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R4
+R5
+R6
+R7
+R8
+R0
+Z21 8C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/testbench.vhd
+Z22 FC:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/testbench.vhd
+l0
+L12
+VAAW7^aa<I4j`Il[UeEZzn3
+!s100 Q>^7VG_=alB@_5d1=[V;A3
+R1
+33
+R11
+!i10b 1
+R12
+Z23 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/testbench.vhd|
+Z24 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/HW #4/testbench.vhd|
+!i113 1
+R15
+R2
+Atestbench_arch
+R20
+R4
+R5
+R6
+R7
+R8
+DEx4 work 9 testbench 0 22 AAW7^aa<I4j`Il[UeEZzn3
+l35
+L18
+VJmk[HgTH5cAf:`[XmhgR^3
+!s100 6[IK4Fc?lXh^:VCb;b1jH1
+R1
+33
+R11
+!i10b 1
+R12
+R23
+R24
+!i113 1
+R15
+R2
