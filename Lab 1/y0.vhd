@@ -65,6 +65,8 @@ variable Xb: ufixed(w_bits-F_bits-1 downto -F_bits);
 
 begin
 
+	if(rising_edge(clk)) then
+
 	B := w_bits - F_bits - to_integer(unsigned(z)) - 1;
 
 	if(B mod 2) = 0 then
@@ -89,6 +91,7 @@ begin
 	even_sig <= even;
 	Xa_sig <= Xa;
 	
+	end if;
 
 end process;
 
@@ -98,6 +101,7 @@ variable lookup_fixed : ufixed(0 downto -F_bits);
 variable lookup_wide : ufixed(w_bits-F_bits-1 downto -F_bits);
 
 begin
+
 	lookup_fixed := to_ufixed(lookup,0,-F_bits);
 	lookup_wide := resize(lookup_fixed,w_bits-F_bits-1,-F_bits);
 

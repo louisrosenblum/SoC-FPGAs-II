@@ -20,7 +20,7 @@ architecture rsqrt_TB_arch of rsqrt_TB is
 
 signal y : ufixed(w_bits-F_bits-1 downto -F_bits);
 signal x : ufixed(w_bits-F_bits-1 downto -F_bits);
-signal clk : std_logic;
+signal clk : std_logic := '0';
 
 component rsqrt is
 	generic (w_bits : positive := 32; -- size of word
@@ -42,6 +42,7 @@ rqsrt_main : component rsqrt
 	port map(clk => clk, x => x, y => y);
 
 
+
 -- File I/O
 main : process
 
@@ -52,6 +53,8 @@ variable data_fixed : ufixed(w_bits-F_bits-1 downto -F_bits);
 begin
 
 while not endfile(text_file) loop
+
+	clk <= not clk;
  
   readline(text_file, text_line);
  
@@ -59,13 +62,14 @@ while not endfile(text_file) loop
 
 	x <= data_fixed;
 
-	clk <= not(clk);
-
 	wait for 1 ms;
   
   end loop;
-  
-	wait;
+
+	clk <= not clk;
+	wait for 1 ms;
+
+
 
 end process;
 
