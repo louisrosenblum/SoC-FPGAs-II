@@ -23,9 +23,9 @@ V2lMNOaZQeRHJHbYD;6T:S3
 !s100 8bH3J@Hl>8aLQSffFTid`0
 Z8 OV;C;10.5b;63
 32
-Z9 !s110 1580591459
+Z9 !s110 1580602409
 !i10b 1
-Z10 !s108 1580591459.000000
+Z10 !s108 1580602409.000000
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/lzc.vhd|
 Z12 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/lzc.vhd|
 !i113 1
@@ -36,11 +36,11 @@ R2
 R3
 R4
 R5
-Z15 DEx4 work 3 lzc 0 22 2lMNOaZQeRHJHbYD;6T:S3
+DEx4 work 3 lzc 0 22 2lMNOaZQeRHJHbYD;6T:S3
 l49
 L14
-Z16 VW1jDB75K^l0M7ibLV4G?N2
-Z17 !s100 Be[W<Rz96JEM5mY8hY[A90
+VW1jDB75K^l0M7ibLV4G?N2
+!s100 Be[W<Rz96JEM5mY8hY[A90
 R8
 32
 R9
@@ -51,17 +51,99 @@ R12
 !i113 1
 R13
 R14
-Ersqrt
-Z18 w1580590096
-Z19 DPx13 ieee_proposed 25 standard_textio_additions 0 22 :caWd>lEODFTYI`03ffA?2
-Z20 DPx13 ieee_proposed 16 math_utility_pkg 0 22 RQ9f8fT3d9I>Z7c1<`_LM1
-Z21 DPx13 ieee_proposed 9 fixed_pkg 0 22 =MioNHa`Il4>9;2i4U1C<1
-Z22 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Erom
+Z15 w1580600745
+Z16 DPx9 altera_mf 20 altera_mf_components 0 22 7RjT1Xb9^`L[coRHZN<9k2
 R4
 R5
 R0
-Z23 8C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt.vhd
-Z24 FC:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt.vhd
+Z17 8C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/Quartus/ROM.vhd
+Z18 FC:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/Quartus/ROM.vhd
+l0
+L42
+VX;gl_>mYKh[>OS49];R;_0
+!s100 M`_HL;k=EOB9GWfbCla_o1
+R8
+32
+R9
+!i10b 1
+R10
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/Quartus/ROM.vhd|
+Z20 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/Quartus/ROM.vhd|
+!i113 1
+R13
+R14
+Asyn
+R16
+R4
+R5
+DEx4 work 3 rom 0 22 X;gl_>mYKh[>OS49];R;_0
+l56
+L52
+Vn98AcXbRFdPBI2UbiCiM=2
+!s100 aW^a0?`9Q:AfDOEifYdjm2
+R8
+32
+R9
+!i10b 1
+R10
+R19
+R20
+!i113 1
+R13
+R14
+Erom_1port
+Z21 w1580599728
+R16
+R4
+R5
+R0
+Z22 8C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/Quartus/ROM_1PORT.vhd
+Z23 FC:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/Quartus/ROM_1PORT.vhd
+l0
+L42
+V_GbgQL`Lio]dAi6co0UM?3
+!s100 T_jagk=;e2XLnojjTehS63
+R8
+32
+Z24 !s110 1580599814
+!i10b 1
+Z25 !s108 1580599814.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/Quartus/ROM_1PORT.vhd|
+Z27 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/Quartus/ROM_1PORT.vhd|
+!i113 1
+R13
+R14
+Asyn
+R16
+R4
+R5
+DEx4 work 9 rom_1port 0 22 _GbgQL`Lio]dAi6co0UM?3
+l56
+L52
+VffbMRZBY[@UnAh9[98:In2
+!s100 ]Ic[DbJW01<heSzBFHCPZ3
+R8
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R13
+R14
+Ersqrt
+Z28 w1580590096
+Z29 DPx13 ieee_proposed 25 standard_textio_additions 0 22 :caWd>lEODFTYI`03ffA?2
+Z30 DPx13 ieee_proposed 16 math_utility_pkg 0 22 RQ9f8fT3d9I>Z7c1<`_LM1
+Z31 DPx13 ieee_proposed 9 fixed_pkg 0 22 =MioNHa`Il4>9;2i4U1C<1
+Z32 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R4
+R5
+R0
+Z33 8C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt.vhd
+Z34 FC:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt.vhd
 l0
 L9
 VdEMlYGRnTHWcJFEI=KFjz0
@@ -71,16 +153,16 @@ R8
 R9
 !i10b 1
 R10
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt.vhd|
-Z26 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt.vhd|
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt.vhd|
+Z36 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt.vhd|
 !i113 1
 R13
 R14
 Arsqrt_arch
-R19
-R20
-R21
-R22
+R29
+R30
+R31
+R32
 R4
 R5
 DEx4 work 5 rsqrt 0 22 dEMlYGRnTHWcJFEI=KFjz0
@@ -93,43 +175,43 @@ R8
 R9
 !i10b 1
 R10
-R25
-R26
+R35
+R36
 !i113 1
 R13
 R14
 Ersqrt_tb
-Z27 w1580590040
-Z28 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
-R19
-R20
-R21
-R22
+Z37 w1580590040
+Z38 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R29
+R30
+R31
+R32
 R4
 R5
 R0
-Z29 8C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd
-Z30 FC:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd
+Z39 8C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd
+Z40 FC:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd
 l0
 L13
 Vh3j?fK1Fe_j;gZo;33fB41
 !s100 ^THLW4EJom@z[H8gN0dU22
 R8
 32
-Z31 !s110 1580591458
+R9
 !i10b 1
-Z32 !s108 1580591458.000000
-Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd|
-Z34 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd|
+R10
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd|
+Z42 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd|
 !i113 1
 R13
 R14
 Arsqrt_tb_arch
-R28
-R19
-R20
-R21
-R22
+R38
+R29
+R30
+R31
+R32
 R4
 R5
 DEx4 work 8 rsqrt_tb 0 22 h3j?fK1Fe_j;gZo;33fB41
@@ -139,46 +221,46 @@ VkNX7Cb6@Pa=BK8OzWV[O70
 !s100 =nl3O0hWA=lCz5IIDjCE@2
 R8
 32
-R31
+R9
 !i10b 1
-R32
-R33
-R34
+R10
+R41
+R42
 !i113 1
 R13
 R14
 Etestbench
-Z35 w1580587747
-R28
-R19
-R20
-R21
-R22
+Z43 w1580587747
+R38
+R29
+R30
+R31
+R32
 R4
 R5
 R0
-R29
-R30
+R39
+R40
 l0
 L13
 VXm>^iT1XQMcbc<CDNW7ZG1
 !s100 MY>P=k4GT=6ff]WQ4L33:2
 R8
 32
-Z36 !s110 1580587749
+Z44 !s110 1580587749
 !i10b 1
-Z37 !s108 1580587749.000000
-R33
-R34
+Z45 !s108 1580587749.000000
+R41
+R42
 !i113 1
 R13
 R14
 Atestbench_arch
-R28
-R19
-R20
-R21
-R22
+R38
+R29
+R30
+R31
+R32
 R4
 R5
 DEx4 work 9 testbench 0 22 Xm>^iT1XQMcbc<CDNW7ZG1
@@ -188,58 +270,58 @@ VoZAV_JhgGfkS=KAe`7QNN2
 !s100 KJRSgONgJ7I=Z8V=MB9@81
 R8
 32
-R36
+R44
 !i10b 1
-R37
-R33
-R34
+R45
+R41
+R42
 !i113 1
 R13
 R14
 Ey0
-Z38 w1580591356
-R19
-R20
-R21
-R22
+Z46 w1580602421
+R29
+R30
+R31
+R32
 R4
 R5
 R0
-Z39 8C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd
-Z40 FC:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd
+Z47 8C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd
+Z48 FC:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd
 l0
 L9
 V;X8FVg5<IaH:BP>D63fMi0
 !s100 Q2NOFlG0NQUYB2OTDi>ch3
 R8
 32
-R9
+Z49 !s110 1580602422
 !i10b 1
-R10
-Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd|
-Z42 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd|
+Z50 !s108 1580602422.000000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd|
+Z52 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd|
 !i113 1
 R13
 R14
 Ay0_arch
-R19
-R20
-R21
-R22
+R29
+R30
+R31
+R32
 R4
 R5
-DEx4 work 2 y0 0 22 ;X8FVg5<IaH:BP>D63fMi0
-l31
+Z53 DEx4 work 2 y0 0 22 ;X8FVg5<IaH:BP>D63fMi0
+l48
 L19
-VaKB@<GKYV4=4kgO0gFVTS2
-!s100 5UM=IHB@nm@IPjd0bhK182
+V2@C5^7^;lemjldbVTQTR73
+!s100 [gN^F>J0bn:Ko1eBD3D0`1
 R8
 32
-R9
+R49
 !i10b 1
-R10
-R41
-R42
+R50
+R51
+R52
 !i113 1
 R13
 R14

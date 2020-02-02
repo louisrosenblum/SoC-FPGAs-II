@@ -19,6 +19,23 @@ end entity;
 architecture y0_arch of y0 is
 
 signal z : std_logic_vector(4 downto 0);
+signal address : std_logic_vector(6 downto 0);
+signal lookup : STD_LOGIC_VECTOR (F_bits DOWNTO 0);
+
+signal A_sig : integer;
+signal B_sig : integer;
+signal even_sig : Boolean;
+signal Xa_sig: ufixed(w_bits-F_bits-1 downto -F_bits);
+signal Xb_sig: ufixed(w_bits-F_bits-1 downto -F_bits);
+
+COMPONENT ROM IS
+	PORT
+	(
+		address		: IN STD_LOGIC_VECTOR (6 DOWNTO 0);
+		clock		: IN STD_LOGIC  := '1';
+		q		: OUT STD_LOGIC_VECTOR (16 DOWNTO 0)
+	);
+END COMPONENT;
 
 component lzc is
     port (
@@ -30,15 +47,19 @@ end component;
 
 begin
 
+LUT : component ROM
+	port map(address => address, clock => clk, q => lookup);
+
 lzc_main : component lzc
 	port map(clk => clk, lzc_vector => std_logic_vector(x), lzc_count => z);
 
 
-main : process(clk)
+alpha : process(clk)
 
 variable A : integer;
 variable B : integer;
 variable even : Boolean;
+variable addr : std_logic_vector(6 downto 0);
 variable Xa: ufixed(w_bits-F_bits-1 downto -F_bits);
 variable Xb: ufixed(w_bits-F_bits-1 downto -F_bits);
 
@@ -61,7 +82,31 @@ begin
 	Xa := resize((2**A) * x,w_bits-F_bits-1,-F_bits);
 		
 	Xb := resize((2**(-B)) * x,w_bits-F_bits-1,-F_bits);
+
+	addr := std_logic_vector(resize(Xb(-1 downto -F_bits),0,-7));
+
+	address <= addr;
+	even_sig <= even;
+	Xa_sig <= Xa;
 	
+
+end process;
+
+bravo : process(lookup)
+
+variable lookup_fixed : ufixed(0 downto -F_bits);
+variable lookup_wide : ufixed(w_bits-F_bits-1 downto -F_bits);
+
+begin
+	lookup_fixed := to_ufixed(lookup,0,-F_bits);
+	lookup_wide := resize(lookup_fixed,w_bits-F_bits-1,-F_bits);
+
+	if(even_sig = true) then
+		y <= resize(Xa_sig *lookup_wide,w_bits-F_bits-1,-F_bits);
+	else
+		y <= resize(Xa_sig *lookup_wide*2**(-3/2),w_bits-F_bits-1,-F_bits);
+
+	end if;
 
 end process;
 
