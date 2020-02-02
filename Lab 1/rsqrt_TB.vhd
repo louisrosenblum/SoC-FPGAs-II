@@ -52,15 +52,28 @@ variable data_fixed : ufixed(w_bits-F_bits-1 downto -F_bits);
 
 begin
 
-while not endfile(text_file) loop
 
 	clk <= not clk;
+
+
+	wait for 1 ms;
+	clk <= not clk;
+	wait for 1 ms;
+
+while not endfile(text_file) loop
+
  
   readline(text_file, text_line);
  
 	read(text_line,data_fixed);
 
 	x <= data_fixed;
+
+	clk <= not clk;
+
+	wait for 1 ms;
+
+	clk <= not clk;
 
 	wait for 1 ms;
   

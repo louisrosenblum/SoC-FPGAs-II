@@ -95,12 +95,14 @@ begin
 
 end process;
 
-bravo : process(lookup)
+bravo : process(clk)
 
 variable lookup_fixed : ufixed(0 downto -F_bits);
 variable lookup_wide : ufixed(w_bits-F_bits-1 downto -F_bits);
 
 begin
+
+	if(rising_edge(clk)) then
 
 	lookup_fixed := to_ufixed(lookup,0,-F_bits);
 	lookup_wide := resize(lookup_fixed,w_bits-F_bits-1,-F_bits);
@@ -109,6 +111,8 @@ begin
 		y <= resize(Xa_sig *lookup_wide,w_bits-F_bits-1,-F_bits);
 	else
 		y <= resize(Xa_sig *lookup_wide*0.0625,w_bits-F_bits-1,-F_bits);
+
+	end if;
 
 	end if;
 
