@@ -51,7 +51,7 @@ LUT : component ROM
 	port map(address => address, clock => clk, q => lookup);
 
 lzc_main : component lzc
-	port map(clk => clk, lzc_vector => std_logic_vector(x), lzc_count => z);
+	port map(clk => clk, lzc_vector => to_std_logic_vector(x), lzc_count => z);
 
 
 alpha : process(clk)
@@ -79,11 +79,11 @@ begin
 		A := -3/2*B + 1/2;
 	end if;
 
-	Xa := resize((2**A) * x,w_bits-F_bits-1,-F_bits);
+	Xa := resize(x sll A,w_bits-F_bits-1,-F_bits);
 		
-	Xb := resize((2**(-B)) * x,w_bits-F_bits-1,-F_bits);
+	Xb := resize(x srl B,w_bits-F_bits-1,-F_bits);
 
-	addr := std_logic_vector(resize(Xb(-1 downto -F_bits),0,-7));
+	addr := to_std_logic_vector(resize(Xb(-1 downto -F_bits),0,-7));
 
 	address <= addr;
 	even_sig <= even;
@@ -104,7 +104,9 @@ begin
 	if(even_sig = true) then
 		y <= resize(Xa_sig *lookup_wide,w_bits-F_bits-1,-F_bits);
 	else
-		y <= resize(Xa_sig *lookup_wide*2**(-3/2),w_bits-F_bits-1,-F_bits);
+		y <= resize(Xa_sig *lookup_wide*0.0625,w_bits-F_bits-1,-F_bits);
+
+	end if;
 
 end process;
 

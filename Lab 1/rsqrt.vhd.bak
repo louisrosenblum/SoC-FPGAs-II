@@ -11,7 +11,8 @@ entity rsqrt is
 		 F_bits : positive := 16; -- number of fractional bits
 		N_iterations : positive := 3);
 
-	port (x : in ufixed(w_bits-F_bits-1 downto -F_bits);
+	port (  clk : in std_logic;
+		x : in ufixed(w_bits-F_bits-1 downto -F_bits);
 		y : out ufixed(w_bits-F_bits-1 downto -F_bits));
 	
 end entity;
@@ -35,7 +36,7 @@ begin
 
 y0_main : component y0
 	generic map (w_bits => w_bits, F_bits => F_bits)
-	port map (x => x, y => approx);
+	port map (clk => clk, x => x, y => approx);
 
 end architecture;
 
