@@ -23,9 +23,9 @@ V2lMNOaZQeRHJHbYD;6T:S3
 !s100 8bH3J@Hl>8aLQSffFTid`0
 Z8 OV;C;10.5b;63
 32
-Z9 !s110 1580677530
+Z9 !s110 1580677985
 !i10b 1
-Z10 !s108 1580677530.000000
+Z10 !s108 1580677985.000000
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/lzc.vhd|
 Z12 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/lzc.vhd|
 !i113 1
@@ -226,7 +226,7 @@ R44
 R13
 R14
 Ersqrt_tb
-Z45 w1580677528
+Z45 w1580677982
 Z46 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
 R40
 R16
@@ -243,11 +243,11 @@ Vh3j?fK1Fe_j;gZo;33fB41
 !s100 ^THLW4EJom@z[H8gN0dU22
 R8
 32
-Z49 !s110 1580677529
+R9
 !i10b 1
-Z50 !s108 1580677529.000000
-Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd|
-Z52 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd|
+R10
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd|
+Z50 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/rsqrt_TB.vhd|
 !i113 1
 R13
 R14
@@ -262,20 +262,20 @@ R5
 DEx4 work 8 rsqrt_tb 0 22 h3j?fK1Fe_j;gZo;33fB41
 l38
 L19
-V[XQ?V=cQG7SLL_RW3CWC53
-!s100 i4J7L]0n:o>cWGk4WLmPj3
+VinROelbA0fWboRX[R3?O03
+!s100 z;cMlP?a[K`GJ]k0i67LV2
 R8
 32
-R49
+R9
 !i10b 1
+R10
+R49
 R50
-R51
-R52
 !i113 1
 R13
 R14
 Etestbench
-Z53 w1580587747
+Z51 w1580587747
 R46
 R40
 R16
@@ -292,11 +292,11 @@ VXm>^iT1XQMcbc<CDNW7ZG1
 !s100 MY>P=k4GT=6ff]WQ4L33:2
 R8
 32
-Z54 !s110 1580587749
+Z52 !s110 1580587749
 !i10b 1
-Z55 !s108 1580587749.000000
-R51
-R52
+Z53 !s108 1580587749.000000
+R49
+R50
 !i113 1
 R13
 R14
@@ -315,16 +315,16 @@ VoZAV_JhgGfkS=KAe`7QNN2
 !s100 KJRSgONgJ7I=Z8V=MB9@81
 R8
 32
-R54
-!i10b 1
-R55
-R51
 R52
+!i10b 1
+R53
+R49
+R50
 !i113 1
 R13
 R14
 Ey0
-Z56 w1580677412
+Z54 w1580677412
 R40
 R16
 R17
@@ -332,8 +332,8 @@ R18
 R4
 R5
 R0
-Z57 8C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd
-Z58 FC:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd
+Z55 8C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd
+Z56 FC:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd
 l0
 L9
 V;X8FVg5<IaH:BP>D63fMi0
@@ -343,8 +343,8 @@ R8
 R9
 !i10b 1
 R10
-Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd|
-Z60 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd|
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd|
+Z58 !s107 C:/Users/Louis/Desktop/SoC-FPGAs-II/Lab 1/y0.vhd|
 !i113 1
 R13
 R14
@@ -365,8 +365,8 @@ R8
 R9
 !i10b 1
 R10
-R59
-R60
+R57
+R58
 !i113 1
 R13
 R14

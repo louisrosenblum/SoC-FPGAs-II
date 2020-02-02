@@ -87,12 +87,19 @@ while not endfile(text_file) loop
 end process;
 
 write_out : process(y)
+
+	variable zero : ufixed(w_bits-F_bits-1 downto -F_bits);
+
 	file write_file : text open write_mode is "output.txt";
 	variable write_line : line;
 	
 	begin
 
+	zero := (others => '0');
+
 	if(y(1) = 'U') or (y(1) = 'X') then
+
+	elsif(y = zero) then
 
 	else
 
