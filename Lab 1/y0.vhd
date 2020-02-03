@@ -19,8 +19,9 @@ end entity;
 architecture y0_arch of y0 is
 
 signal z : std_logic_vector(4 downto 0);
-signal address : std_logic_vector(6 downto 0);
-signal lookup : STD_LOGIC_VECTOR (F_bits DOWNTO 0);
+signal address : std_logic_vector(6 downto 0) := (others => 'U');
+signal LUT_value: STD_LOGIC_VECTOR (F_bits DOWNTO 0);
+signal lookup : STD_LOGIC_VECTOR (F_bits DOWNTO 0) := (others => 'U');
 
 signal A_sig : integer;
 signal B_sig : integer;
@@ -54,7 +55,7 @@ lzc_main : component lzc
 	port map(clk => clk, lzc_vector => to_std_logic_vector(x), lzc_count => z);
 
 
-alpha : process(clk)
+alpha : process(x)
 
 variable A : integer;
 variable B : integer;
