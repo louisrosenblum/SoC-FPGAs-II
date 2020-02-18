@@ -1,0 +1,112 @@
+-- rsqrt.vhd
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+USE ieee.numeric_std.ALL;
+
+library ieee_proposed;
+use ieee_proposed.fixed_pkg.all;
+use ieee_proposed.standard_textio_additions.all;
+
+entity rsqrt is
+	generic (w_bits : positive := 32; -- size of word
+		 F_bits : positive := 16; -- number of fractional bits
+		N_iterations : positive := 3);
+
+	port (  clk : in std_logic;
+		x : in ufixed(w_bits-F_bits-1 downto -F_bits);
+		y : out ufixed(w_bits-F_bits-1 downto -F_bits));
+	
+end entity;
+
+architecture rsqrt_arch of rsqrt is
+
+component newton_block is
+
+	generic (w_bits : positive := 32; -- size of word
+		 F_bits : positive := 16); -- number of fractional bits
+
+	port(	clk : in std_logic;
+		input_x : in ufixed(w_bits-F_bits-1 downto -F_bits);
+		input_y : in ufixed(w_bits-F_bits-1 downto -F_bits);
+		output_x : out ufixed(w_bits-F_bits-1 downto -F_bits);
+		output_y : out ufixed(w_bits-F_bits-1 downto -F_bits));
+	
+
+end component;
+
+component y0 is
+	generic (w_bits : positive := 32; -- size of word
+		 F_bits : positive := 16); -- number of fractional bits
+
+	port (  clk : in std_logic;
+		x : in ufixed(w_bits-F_bits-1 downto -F_bits);
+		y : out ufixed(w_bits-F_bits-1 downto -F_bits));
+	
+end component;
+
+signal approx : ufixed(w_bits-F_bits-1 downto -F_bits);
+
+signal x0 : ufixed(w_bits-F_bits-1 downto -F_bits);
+signal x1 : ufixed(w_bits-F_bits-1 downto -F_bits);
+signal x2 : ufixed(w_bits-F_bits-1 downto -F_bits);
+signal x3 : ufixed(w_bits-F_bits-1 downto -F_bits);
+
+type ufixed_array is array(N_iterations-1 downto 0) of ufixed(w_bits-F_bits-1 downto -F_bits);
+
+signal x_chain : ufixed_array;
+signal y_chain : ufixed_array;
+
+begin
+
+-- Use generate statements to create pipeline of newton_block components, length = N_iterations
+
+newton_chain : for i in (N_iterations-1) downto 0 generate
+
+begin
+
+	newton : if i = N_iterations-1 generate 
+
+	block_element : component newton_block -- Most significant block
+			generic map(w_bits => w_bits, F_bits => F_bits)
+			port map(clk => clk, input_x => x_chain(i-1), input_y => y_chain(i-1), output_x => OPEN, output_y => y);
+
+	elsif i = 0 generate
+
+	block_element : component newton_block -- Least significant block
+			generic map(w_bits => w_bits, F_bits => F_bits)
+			port map(clk => clk, input_x => x3, input_y => approx, output_x => x_chain(i), output_y => y_chain(i));
+
+	else generate
+
+	block_element : component newton_block -- Middle blocks
+			generic map(w_bits => w_bits, F_bits => F_bits)
+			port map(clk => clk, input_x => x_chain(i-1), input_y => y_chain(i-1), output_x => x_chain(i), output_y => y_chain(i));
+
+	end generate newton;
+
+end generate newton_chain;
+	
+-- Calculate initial guess for use in Newton's method
+y0_main : component y0
+	generic map (w_bits => w_bits, F_bits => F_bits)
+	port map (clk => clk, x => x, y => approx);
+
+-- Infer flip flops to delay input 
+alpha : process(clk)
+
+begin
+
+	if(rising_edge(clk)) then
+
+	x0 <= x;
+	x1 <= x0;
+	x2 <= x1;
+	x3 <= x2;
+
+	end if;
+
+end process;
+
+end architecture;
+

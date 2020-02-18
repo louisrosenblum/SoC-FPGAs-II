@@ -1,0 +1,102 @@
+{C:/Users/Louis/Desktop/Lab 1/W32/2008/std_logic_1164_additions.vhdl} {2 {vcom -work ieee_proposed -2002 -explicit -stats=none {C:/Users/Louis/Desktop/Lab 1/W32/2008/std_logic_1164_additions.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package std_logic_1164_additions
+-- Compiling package body std_logic_1164_additions
+-- Loading package std_logic_1164_additions
+** Warning: C:/Users/Louis/Desktop/Lab 1/W32/2008/std_logic_1164_additions.vhdl(1012): (vcom-1246) Range 2 to 1 is null.
+
+} {} {}} {C:/Users/Louis/Desktop/Lab 1/W32/2008/numeric_std_unsigned.vhdl} {1 {vcom -work ieee_proposed -2002 -explicit -stats=none {C:/Users/Louis/Desktop/Lab 1/W32/2008/numeric_std_unsigned.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package NUMERIC_STD_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package numeric_std_additions
+-- Compiling package body NUMERIC_STD_UNSIGNED
+-- Loading package NUMERIC_STD_UNSIGNED
+
+} {} {}} {C:/Users/Louis/Desktop/Lab 1/W32/2008/fixed_pkg.vhdl} {2 {vcom -work ieee_proposed -2002 -explicit -stats=none {C:/Users/Louis/Desktop/Lab 1/W32/2008/fixed_pkg.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_utility_pkg
+-- Compiling package fixed_pkg
+-- Loading package MATH_REAL
+-- Compiling package body fixed_pkg
+-- Loading package fixed_pkg
+** Warning: C:/Users/Louis/Desktop/Lab 1/W32/2008/fixed_pkg.vhdl(1475): (vcom-1246) Range 0 downto 1 is null.
+** Warning: C:/Users/Louis/Desktop/Lab 1/W32/2008/fixed_pkg.vhdl(1476): (vcom-1246) Range 0 downto 1 is null.
+** Warning: C:/Users/Louis/Desktop/Lab 1/W32/2008/fixed_pkg.vhdl(1477): (vcom-1246) Range 0 downto 1 is null.
+** Warning: C:/Users/Louis/Desktop/Lab 1/W32/2008/fixed_pkg.vhdl(6892): (vcom-1246) Range 2 to 1 is null.
+
+} {} {}} {C:/Users/Louis/Desktop/Lab 1/W32/2008/fixed_float_types.vhdl} {1 {vcom -work ieee_proposed -2002 -explicit -stats=none {C:/Users/Louis/Desktop/Lab 1/W32/2008/fixed_float_types.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling package fixed_float_types
+
+} {} {}} {C:/Users/Louis/Desktop/Lab 1/W32/2008/env.vhdl} {1 {vcom -work ieee_proposed -2002 -explicit -stats=none {C:/Users/Louis/Desktop/Lab 1/W32/2008/env.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling package ENV
+-- Loading package standard_additions
+-- Compiling package body ENV
+-- Loading package ENV
+
+} {} {}} {C:/Users/Louis/Desktop/Lab 1/W32/2008/math_utility_pkg.vhdl} {1 {vcom -work ieee_proposed -2002 -explicit -stats=none {C:/Users/Louis/Desktop/Lab 1/W32/2008/math_utility_pkg.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling package math_utility_pkg
+
+} {} {}} {C:/Users/Louis/Desktop/Lab 1/W32/2008/standard_textio_additions.vhdl} {2 {vcom -work ieee_proposed -2002 -explicit -stats=none {C:/Users/Louis/Desktop/Lab 1/W32/2008/standard_textio_additions.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Compiling package standard_textio_additions
+-- Loading package standard_additions
+-- Compiling package body standard_textio_additions
+-- Loading package standard_textio_additions
+** Warning: C:/Users/Louis/Desktop/Lab 1/W32/2008/standard_textio_additions.vhdl(60): (vcom-1246) Range 2 to 1 is null.
+
+} {} {}} {C:/Users/Louis/Desktop/Lab 1/W32/2008/standard_additions.vhdl} {1 {vcom -work ieee_proposed -2002 -explicit -stats=none {C:/Users/Louis/Desktop/Lab 1/W32/2008/standard_additions.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling package standard_additions
+-- Loading package TEXTIO
+-- Compiling package body standard_additions
+-- Loading package standard_additions
+
+} {} {}} {C:/Users/Louis/Desktop/Lab 1/W32/2008/numeric_std_additions.vhdl} {2 {vcom -work ieee_proposed -2002 -explicit -stats=none {C:/Users/Louis/Desktop/Lab 1/W32/2008/numeric_std_additions.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package numeric_std_additions
+-- Compiling package body numeric_std_additions
+-- Loading package numeric_std_additions
+** Warning: C:/Users/Louis/Desktop/Lab 1/W32/2008/numeric_std_additions.vhdl(480): (vcom-1246) Range 0 downto 1 is null.
+** Warning: C:/Users/Louis/Desktop/Lab 1/W32/2008/numeric_std_additions.vhdl(481): (vcom-1246) Range 0 downto 1 is null.
+** Warning: C:/Users/Louis/Desktop/Lab 1/W32/2008/numeric_std_additions.vhdl(2055): (vcom-1246) Range 2 to 1 is null.
+
+} {} {}} {C:/Users/Louis/Desktop/Lab 1/W32/2008/float_pkg.vhdl} {2 {vcom -work ieee_proposed -2002 -explicit -stats=none {C:/Users/Louis/Desktop/Lab 1/W32/2008/float_pkg.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_utility_pkg
+-- Loading package fixed_pkg
+-- Compiling package float_pkg
+-- Compiling package body float_pkg
+-- Loading package float_pkg
+** Warning: C:/Users/Louis/Desktop/Lab 1/W32/2008/float_pkg.vhdl(1014): (vcom-1246) Range 0 downto 1 is null.
+** Warning: C:/Users/Louis/Desktop/Lab 1/W32/2008/float_pkg.vhdl(1015): (vcom-1246) Range 0 downto 1 is null.
+** Warning: C:/Users/Louis/Desktop/Lab 1/W32/2008/float_pkg.vhdl(6229): (vcom-1246) Range 2 to 1 is null.
+
+} {} {}}
