@@ -1,0 +1,58 @@
+{C:/Users/Louis/Desktop/Lab 1/W28/Lab1-w28/VHDL/ROM.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/Louis/Desktop/Lab 1/W28/Lab1-w28/VHDL/ROM.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity rom
+-- Compiling architecture SYN of rom
+
+} {} {}} {C:/Users/Louis/Desktop/Lab 1/W28/Lab1-w28/VHDL/rsqrt.vhd} {2 {vcom -work work -2008 -explicit -stats=none {C:/Users/Louis/Desktop/Lab 1/W28/Lab1-w28/VHDL/rsqrt.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_utility_pkg
+-- Loading package fixed_pkg
+-- Loading package standard_textio_additions
+-- Compiling entity rsqrt
+-- Compiling architecture rsqrt_arch of rsqrt
+** Warning: C:/Users/Louis/Desktop/Lab 1/W28/Lab1-w28/VHDL/rsqrt.vhd(18): Nonresolved signal 'y' may have multiple sources.
+  Drivers:
+    C:/Users/Louis/Desktop/Lab 1/W28/Lab1-w28/VHDL/rsqrt.vhd(74):Instantiation block_element
+
+} {} {}} {C:/Users/Louis/Desktop/Lab 1/W28/Lab1-w28/VHDL/y0.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/Louis/Desktop/Lab 1/W28/Lab1-w28/VHDL/y0.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_utility_pkg
+-- Loading package fixed_pkg
+-- Loading package standard_textio_additions
+-- Compiling entity y0
+-- Compiling architecture y0_arch of y0
+
+} {} {}} {C:/Users/Louis/Desktop/Lab 1/W28/Lab1-w28/VHDL/newton_block.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/Louis/Desktop/Lab 1/W28/Lab1-w28/VHDL/newton_block.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_utility_pkg
+-- Loading package fixed_pkg
+-- Compiling entity newton_block
+-- Compiling architecture newton_block_arch of newton_block
+
+} {} {}} {C:/Users/Louis/Desktop/Lab 1/W28/Lab1-w28/VHDL/lzc.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/Louis/Desktop/Lab 1/W28/Lab1-w28/VHDL/lzc.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity lzc
+-- Compiling architecture behavioral of lzc
+
+} {} {}}

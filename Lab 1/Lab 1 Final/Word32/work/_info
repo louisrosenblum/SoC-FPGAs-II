@@ -1,0 +1,282 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Louis/Desktop/Lab 1/W32
+Elzc
+Z1 w1580936665
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8C:/Users/Louis/Desktop/Lab 1/W32/VHDL/lzc.vhd
+Z7 FC:/Users/Louis/Desktop/Lab 1/W32/VHDL/lzc.vhd
+l0
+L8
+VC;G?VO^Fn_Nl6Ab`7XaTM2
+!s100 :B;HRY`Dhd04@U8m<dTFo0
+Z8 OV;C;10.5b;63
+33
+Z9 !s110 1581991310
+!i10b 1
+Z10 !s108 1581991310.000000
+Z11 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Louis/Desktop/Lab 1/W32/VHDL/lzc.vhd|
+Z12 !s107 C:/Users/Louis/Desktop/Lab 1/W32/VHDL/lzc.vhd|
+!i113 1
+Z13 o-work work -2008 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 3 lzc 0 22 C;G?VO^Fn_Nl6Ab`7XaTM2
+l51
+L16
+V8Hb7Rl7>ZoP32lW0oPW3m3
+!s100 QE[F>F8OVim3Xd@aK_bmd1
+R8
+33
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Enewton_block
+R1
+Z15 DPx13 ieee_proposed 16 math_utility_pkg 0 22 RQ9f8fT3d9I>Z7c1<`_LM1
+Z16 DPx13 ieee_proposed 9 fixed_pkg 0 22 =MioNHa`Il4>9;2i4U1C<1
+Z17 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R4
+R5
+R0
+Z18 8C:/Users/Louis/Desktop/Lab 1/W32/VHDL/newton_block.vhd
+Z19 FC:/Users/Louis/Desktop/Lab 1/W32/VHDL/newton_block.vhd
+l0
+L10
+Vho2@mf8TJI7U:FM^`LCQ@3
+!s100 AhOkXzk`JzkGY_kTJY@e<1
+R8
+33
+R9
+!i10b 1
+R10
+Z20 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Louis/Desktop/Lab 1/W32/VHDL/newton_block.vhd|
+Z21 !s107 C:/Users/Louis/Desktop/Lab 1/W32/VHDL/newton_block.vhd|
+!i113 1
+R13
+R14
+Anewton_block_arch
+R15
+R16
+R17
+R4
+R5
+DEx4 work 12 newton_block 0 22 ho2@mf8TJI7U:FM^`LCQ@3
+l27
+L24
+Ve?GbY>]YX8]V4e<lmRNkm1
+!s100 lL>0z?V1Rn4O09UDjcl?k2
+R8
+33
+R9
+!i10b 1
+R10
+R20
+R21
+!i113 1
+R13
+R14
+Erom
+Z22 w1581990411
+Z23 DPx9 altera_mf 20 altera_mf_components 0 22 7RjT1Xb9^`L[coRHZN<9k2
+R4
+R5
+R0
+Z24 8C:\Users\Louis\Desktop\Lab 1\W32\VHDL\ROM.vhd
+Z25 FC:\Users\Louis\Desktop\Lab 1\W32\VHDL\ROM.vhd
+l0
+L45
+VT_PDi27o_;ngoe6AzKSAB1
+!s100 0l]c:Tf9dJ6N_aP>2CRaf0
+R8
+33
+R9
+!i10b 1
+R10
+Z26 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\Louis\Desktop\Lab 1\W32\VHDL\ROM.vhd|
+Z27 !s107 C:\Users\Louis\Desktop\Lab 1\W32\VHDL\ROM.vhd|
+!i113 1
+R13
+R14
+Asyn
+R23
+R4
+R5
+DEx4 work 3 rom 0 22 T_PDi27o_;ngoe6AzKSAB1
+l59
+L55
+VhcLkQ:b7G00?D[OjmC4SP2
+!s100 <@XMgRgMfXde:h[G]O<Zj3
+R8
+33
+R9
+!i10b 1
+R10
+R26
+R27
+!i113 1
+R13
+R14
+Ersqrt
+R1
+Z28 DPx13 ieee_proposed 25 standard_textio_additions 0 22 :caWd>lEODFTYI`03ffA?2
+R15
+R16
+R17
+R4
+R5
+R0
+Z29 8C:/Users/Louis/Desktop/Lab 1/W32/VHDL/rsqrt.vhd
+Z30 FC:/Users/Louis/Desktop/Lab 1/W32/VHDL/rsqrt.vhd
+l0
+L11
+V=ME111US0jBHcziBWF4XR1
+!s100 ;1jGZcWNcXmfzBUkffOQg1
+R8
+33
+R9
+!i10b 1
+R10
+Z31 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Louis/Desktop/Lab 1/W32/VHDL/rsqrt.vhd|
+Z32 !s107 C:/Users/Louis/Desktop/Lab 1/W32/VHDL/rsqrt.vhd|
+!i113 1
+R13
+R14
+Arsqrt_arch
+R28
+R15
+R16
+R17
+R4
+R5
+DEx4 work 5 rsqrt 0 22 =ME111US0jBHcziBWF4XR1
+l60
+L22
+VajmT2kbNFD8Fh;ejbOWSm0
+!s100 QOZ>j=j7B4Fg^e]G^H2MR2
+R8
+33
+R9
+!i10b 1
+R10
+R31
+R32
+!i113 1
+R13
+R14
+Ersqrt_tb
+Z33 w1581991307
+Z34 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R28
+R15
+R16
+R17
+R4
+R5
+R0
+Z35 8C:\Users\Louis\Desktop\Lab 1\W32\VHDL\rsqrt_TB.vhd
+Z36 FC:\Users\Louis\Desktop\Lab 1\W32\VHDL\rsqrt_TB.vhd
+l0
+L18
+V@=fDnRLMkZ4mn9QCl__Q]1
+!s100 =kDKlAjK35U@R8E?Nj9Lm1
+R8
+33
+R9
+!i10b 1
+R10
+Z37 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\Louis\Desktop\Lab 1\W32\VHDL\rsqrt_TB.vhd|
+Z38 !s107 C:\Users\Louis\Desktop\Lab 1\W32\VHDL\rsqrt_TB.vhd|
+!i113 1
+R13
+R14
+Arsqrt_tb_arch
+R34
+R28
+R15
+R16
+R17
+R4
+R5
+DEx4 work 8 rsqrt_tb 0 22 @=fDnRLMkZ4mn9QCl__Q]1
+l43
+L24
+VWdmBMCO4A_bI[kW17N@S23
+!s100 F`>a>L;c3Z24VI[@eCzkn1
+R8
+33
+R9
+!i10b 1
+R10
+R37
+R38
+!i113 1
+R13
+R14
+Ey0
+Z39 w1581990148
+R28
+R15
+R16
+R17
+R4
+R5
+R0
+Z40 8C:\Users\Louis\Desktop\Lab 1\W32\VHDL\y0.vhd
+Z41 FC:\Users\Louis\Desktop\Lab 1\W32\VHDL\y0.vhd
+l0
+L11
+V:371e;V13]P5jGMd2S=6:2
+!s100 3e=[9z5HLk0<YAQ2Q81lb0
+R8
+33
+R9
+!i10b 1
+R10
+Z42 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\Louis\Desktop\Lab 1\W32\VHDL\y0.vhd|
+Z43 !s107 C:\Users\Louis\Desktop\Lab 1\W32\VHDL\y0.vhd|
+!i113 1
+R13
+R14
+Ay0_arch
+R28
+R15
+R16
+R17
+R4
+R5
+Z44 DEx4 work 2 y0 0 22 :371e;V13]P5jGMd2S=6:2
+l63
+L21
+Z45 VZ[ENZmEB3ok=d57XYIGGC3
+Z46 !s100 Odjcd8cPjYQig1b`hiWj^0
+R8
+33
+R9
+!i10b 1
+R10
+R42
+R43
+!i113 1
+R13
+R14
